@@ -1,0 +1,24 @@
+create a simple view which will show an input
+where you can type in an english word and it will provide 
+a transcription for it and several examples
+
+-- Plan --
+
+Views:
+- index (input);
+- history (all previous results)
+- cheatsheet (table with transcription, rules)
+- quiz game (make a guess game based on results)
+
+Architecture:
+
+frontend:
+- NextJS
+- Reshaped UI
+- fetch caching
+
+backend:
+- golang webserver;
+- routing system;
+- no authorization (add later)
+- Cache + parsing

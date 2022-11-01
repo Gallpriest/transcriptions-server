@@ -1,0 +1,15 @@
+.header__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header__item {
+    padding: var(--space-small);
+    font-size: var(--font-base);
+}
+
+.header__item + .header__item {
+    margin-left: var(--space-medium);
+}

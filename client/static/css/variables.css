@@ -1,0 +1,14 @@
+:root {
+    /* spaces */
+    --space-small: 4px;
+    --space-medium: 8px;
+    --space-large: 16px;
+
+    /* borders */
+    --border-main: 4px solid rgb(0, 0, 0);
+
+    /* fonts */
+    --font-small: 12px;
+    --font-base: 16px;
+    --font-large: 24px;
+}

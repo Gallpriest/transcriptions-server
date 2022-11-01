@@ -1,0 +1,9 @@
+{{define "header"}}
+<header class="header">
+    <ul class="header__list">
+        {{range $link := .Links}}
+            <li class="header__item"><a href="/">{{$link}}</a></li>
+        {{end}}
+    </ul>
+</header>
+{{end}}
